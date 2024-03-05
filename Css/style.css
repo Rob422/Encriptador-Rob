@@ -1,0 +1,789 @@
+/* DISEÑO FULL HD */
+body {
+  background-image: linear-gradient(
+    rgba(0, 0, 255, 0.5),
+    rgba(255, 255, 0, 0.5),
+    rgba(0, 0, 255, 0.5)
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Inter", sans-serif;
+  height: auto;
+}
+
+.ingreso-texto {
+  text-align: center;
+  width: 60%;
+  display: inline-block;
+  position: relative;
+}
+
+#logoAlura {
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+}
+
+#areaTextoIngreso {
+  margin-left: 0px;
+}
+
+textarea {
+  position: relative;
+  display: inline;
+  border: none;
+  resize: none;
+  padding: 1rem;
+  text-align: left;
+  margin: 1rem 0 0 3rem;
+  width: 85%;
+  height: 12rem;
+  font-size: 2rem;
+  color: #ff0000;
+  background: none;
+  box-shadow: 0.5rem 0.5rem 1rem#00000096;
+  outline: 0;
+  font-family: "Inter", sans-serif;
+}
+
+textarea::placeholder {
+  color: #2369ea;
+  font-size: 2.5rem;
+  font-family: "Inter", sans-serif;
+}
+
+#limpiar {
+  position: absolute;
+  top: 16rem;
+  left: 80%;
+  border-radius: 1rem;
+  background-color: rgb(229, 214, 199, 0.753);
+  box-shadow: 0.15rem 0.15rem 0.4rem #00000096;
+}
+
+#info {
+  font-size: 1rem;
+  color: rgb(82 76 76 / 77%);
+  text-align: left;
+  padding: 0 14%;
+  margin-top: 1.3rem;
+}
+
+#info img {
+  float: left;
+}
+
+#info p {
+  padding: 0 1.5rem;
+  margin: 0.5rem;
+}
+
+#botones {
+  padding: 1.4% 1.4%;
+}
+
+.boton-grande {
+  padding: 2.1%;
+  font-size: 1.5rem;
+  border: 0.15rem #dd651f solid;
+  width: 32%;
+  border-radius: 1.7rem;
+  box-shadow: 0.15rem 0.15rem 0.6rem #00000096;
+}
+
+button:hover {
+  cursor: pointer;
+  scale: 1.06;
+  transition: 400ms;
+}
+
+#encriptar {
+  margin: 0rem 5.6% 0rem 1.4%;
+  background-color: #ddb5f5;
+  color: #ff0000;
+}
+
+#desencriptar {
+  margin: 0 1.4% 0 5.6%;
+  background-color: rgba(229, 214, 199, 0.753);
+  color: #c65af1;
+}
+
+.sale-texto {
+  text-align: center;
+  width: 30%;
+  height: 26rem;
+  display: inline;
+  position: absolute;
+}
+
+.derecha {
+  background: #a7e3f9e3;
+  border: none;
+  border-radius: 2rem;
+  width: 22rem;
+  height: 24rem;
+  box-shadow: 0.5rem 0.5rem 1rem#00000096;
+}
+
+.derecha img {
+  position: relative;
+  z-index: 2;
+  height: 14rem;
+  margin-top: 1rem;
+}
+#textoNoEncontrado {
+    width: 14rem;
+    height: 2rem;
+  position: absolute;
+  font-size: 12px;
+  border-radius: 5rem;
+  color: #000000;
+  margin-top: 3rem;
+  margin-left: 4rem;
+}
+
+#textoNoEncontrado h2 {
+    padding: 0.5rem;
+    background-color: #f4f6c5;
+    border-radius: 5rem;
+
+
+}
+
+#textoNoEncontrado p {
+    position: absolute;
+  font-size: 12px;
+}
+
+.derecha p {
+  font-size: 15px;
+  border-radius: 5rem;
+  background-color: #f4f6c5;
+  color: #000000;
+  padding: 0.5rem;
+  margin-top: 10px;
+}
+
+#munheco {
+  width: 22rem;
+  height: 25rem;
+  z-index: 1;
+  margin-left: 2rem;
+}
+
+#munheco p {
+  text-align: center;
+}
+#textoEncontrado {
+  width: 22rem;
+  height: 25rem;
+  font-size: 2rem;
+  position: relative;
+  margin-left: 2rem;
+  word-wrap: break-word;
+}
+
+#textoSalida {
+  display: block;
+  font-size: 1.6rem;
+  font-family: "Inter", sans-serif;
+  padding: 0px;
+  margin-left: 1.5rem;
+  text-align: justify;
+  box-shadow: none;
+  height: 21rem;
+}
+
+#copiar {
+  border-radius: 1rem;
+  background-color: rgb(229, 214, 199, 0.753);
+  box-shadow: 0.15rem 0.15rem 0.6rem #00000096;
+  position: absolute;
+  bottom: 1rem;
+  margin-left: 6rem;
+}
+
+
+#textoCopiado {
+  display: block;
+  position: absolute;
+  bottom: 0.5rem;
+  left: 0.5rem;
+  background: rgb(229, 214, 199, 0.753);
+  padding: 0.4rem 1rem;
+  border-radius: 2rem;
+  font-size: 0.7rem;
+  box-shadow: 0.15rem 0.15rem 0.6rem #00000096;
+  transition: 10ms;
+  opacity: 0%;
+}
+
+#textoCopiado p {
+  margin: auto 1.7rem;
+  font-size: 1.3rem;
+}
+
+footer {
+    margin-top: 1rem;
+    margin-left: 2rem;
+
+}
+
+footer div {
+    position: absolute;
+  margin: 1.6% auto;
+  display: inline;
+}
+
+footer p {
+  font-size: 1rem;
+  text-align: right;
+  color: #e9ceb2;
+  display: inline-block;
+}
+
+span {
+  font-size: 1rem;
+  font-style: italic;
+  color: #e9ceb2;
+  margin: auto 0.2rem;
+}
+
+
+#github {
+  width: 2rem;
+  height: 2rem;
+}
+
+#linkedin {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 18rem;
+}
+
+li {
+    position: relative;
+  display: inline;
+  scale: 0.6rem;
+}
+
+/*DISEÑO ESCRITORIO*/
+@media screen and (max-width: 1440px) {
+  body {
+    min-height: 100%;
+  }
+  #logoAlura {
+    padding: 0px;
+  }
+  #areaTextoIngreso {
+    margin: 0px 0px;
+  }
+
+  textarea {
+    width: 85%;
+    height: 12rem;
+  }
+}
+
+.sale-texto {
+  vertical-align: top;
+}
+
+#textoSalida {
+  width: 18.5rem;
+}
+
+#copiar {
+  bottom: 1.5rem;
+}
+
+#textoCopiado {
+  left: 13%;
+  padding: 0.4rem 0rem;
+}
+
+#textoCopiado p {
+  font-size: 1.2rem;
+}
+
+/* DISEÑO HD */
+@media screen and (width: 1366px) {
+  body {
+    min-height: 43rem;
+  }
+
+  .ingreso-texto {
+    scale: 0.98;
+  }
+
+  textarea {
+    height: 100%;
+  }
+  .sale-texto {
+    scale: 0.98;
+  }
+  #areaTextoIngreso {
+    height: 23rem;
+  }
+
+  #munheco {
+    height: 22.7rem;
+    margin: 19% 0px 5% 0;
+    padding: 11% 4% 30% 4%;
+  }
+
+  #munheco img {
+    scale: 0.8;
+  }
+
+  #munheco h2 {
+    font-size: 1.8rem;
+    padding: 3% 0;
+  }
+
+  #munheco p {
+    font-size: 1.3rem;
+    margin: 8%;
+  }
+
+  #textoEncontrado {
+    min-height: 25.7rem;
+    margin: 19% 0px 7% 0;
+    padding: 3rem 1rem 6.7rem 1rem;
+  }
+
+  #textoSalida {
+    width: 18rem;
+    height: 24rem;
+  }
+
+  #copiar {
+    scale: 0.9;
+  }
+
+  footer div {
+    scale: 0.9;
+  }
+
+  footer ul {
+    scale: 0.8;
+    margin: 0px 0;
+    left: -1%;
+    position: relative;
+  }
+}
+
+/* DISEÑO TABLET */
+@media screen and (max-width: 768px) {
+  body {
+    min-height: 67.25rem;
+  }
+  #logoAlura {
+    margin: 2rem 1rem 2rem 1rem;
+    padding: 1rem 1rem 1rem 2rem;
+  }
+
+  .ingreso-texto {
+    width: 100%;
+  }
+
+  #areaTextoIngreso {
+    margin: 2rem 2.6rem;
+    height: 31rem;
+  }
+
+  textarea {
+    height: 30rem;
+    width: 88%;
+  }
+
+  #info {
+    margin: 1rem 1rem;
+    padding: 1rem 1rem;
+  }
+
+  .sale-texto {
+    width: 100%;
+  }
+
+  #botones {
+    margin: 1rem 1rem;
+    padding: 0rem 1rem;
+  }
+
+  .boton-grande {
+    width: 18rem;
+  }
+
+  #encriptar {
+    margin: 1rem 1.5rem;
+    padding: 1rem 1rem;
+  }
+
+  #desencriptar {
+    margin: 1rem 1.5rem;
+    padding: 1rem 1rem;
+  }
+
+  .derecha {
+    text-align: center;
+  }
+
+  #munheco {
+    padding: 1rem 1rem 1rem 1rem;
+    height: fit-content;
+    width: 84%;
+    margin: 0.5rem auto 2rem auto;
+  }
+
+  #munheco img {
+    display: none;
+  }
+
+  #textoNoEncontrado p {
+    margin: 1rem 0rem 1rem 0rem;
+  }
+
+  #textoEncontrado {
+    padding: 2rem 1rem 4.8rem 1rem;
+    height: fit-content;
+    min-height: 5rem;
+    width: 84%;
+    margin: 0rem auto 2rem auto;
+  }
+
+  #textoSalida {
+    width: 35rem;
+    height: 16rem;
+  }
+
+  #copiar {
+    bottom: 0.6rem;
+    right: 1rem;
+    scale: 0.8;
+    float: right;
+  }
+
+  #textoCopiado {
+    bottom: 1.6rem;
+    left: 30%;
+    padding: 0.4rem 1rem;
+    border-radius: 2rem;
+    font-size: 0.7rem;
+  }
+
+  #textoCopiado p {
+    margin: auto 1.7rem;
+  }
+
+  footer div {
+    margin: 5.1% auto;
+  }
+  footer ul {
+    margin: 1rem 0.4rem;
+  }
+}
+/*DISEÑO CELULAR*/
+@media screen and (max-width: 490px) {
+
+  body {
+    background-color: red;
+    min-height: 100%;
+  }
+  header{
+    width: 20%;
+    height: 2rem;
+    margin-top: 0px;
+  }
+  #logoAlura {
+    position: relative;
+    width:0.5rem;
+    height: 1rem;
+    margin-left: 1rem;
+    padding: 0rem 0rem;
+    scale: 0.5;
+  }
+
+  #areaTextoIngreso {
+    width: auto;
+    height: auto;
+    margin: 0px;
+  }
+  
+  textarea {
+    position: relative;
+    display: inline;
+    border: none;
+    resize: none;
+    padding: 1rem;
+    text-align: left;
+    width: 16rem;
+    height: 10rem;
+    margin-top: 0px;
+    margin-left: 0px;
+    font-size: 1rem;
+    color: #ffffff;
+    background: none;
+    box-shadow: 0.5rem 0.5rem 1rem#00000096;
+    outline: 0;
+    font-family: "Inter", sans-serif;
+  }
+  
+  textarea::placeholder {
+    color: #edb3b3;
+    font-size: 1rem;
+    font-family: "Inter", sans-serif;
+  }
+  
+  #limpiar {
+    position: absolute;
+    margin-top: -3rem;
+    margin-left: -4rem;
+    border-radius: 1rem;
+    background-color: rgb(229, 214, 199, 0.753);
+    box-shadow: 0.15rem 0.15rem 0.4rem #00000096;
+  }
+  
+  #info {
+    font-size: 0.6rem;
+    font-weight: bold;
+    color: rgb(82 76 76 / 77%);
+    text-align: left;
+    padding: 0rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+  }
+  
+  #info img {
+    float: left;
+    scale: 0.8;
+    padding: 0%;
+    margin: 0%;
+  }
+  
+  #info p {
+    width: 14rem;
+    padding: 0.2rem;
+    margin: 1rem 0rem 0rem 0rem;
+  }
+  
+  #botones {
+    margin: 2rem;
+    padding: 0% 0%;
+  }
+  
+  .boton-grande {
+    padding: 10%;
+    font-size: 1.5rem;
+    border: 0.15rem #dd651f solid;
+    width: 40%;
+    height: 2rem;
+    border-radius: 1.7rem;
+    box-shadow: 0.15rem 0.15rem 0.6rem #00000096;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    scale: 1.06;
+    transition: 400ms;
+  }
+  
+  #encriptar {
+    font-size: 15px;
+    margin: 0rem 5% 0rem 0%;
+    background-color: #ddb5f5;
+    color: #000000;
+    padding: 0rem;
+
+  }
+  
+  #desencriptar {
+    font-size: 15px;
+    margin: 0 0% 0 0%;
+    background-color: rgba(229, 214, 199, 0.753);
+    color: #000000;
+    padding: 0rem;
+  }
+  
+  .sale-texto {
+    text-align: center;
+    width: 100%;
+    height: 13rem;
+    display: block;
+    position: absolute;
+  }
+  
+  .derecha {
+    background: #2b87a9e3;
+    border: none;
+    border-radius: 2rem;
+    width: auto;
+    height: auto;
+    box-shadow: 0.5rem 0.5rem 1rem#00000096;
+  }
+  
+  .derecha img {
+    position: relative;
+    display:block;
+    z-index: 2;
+    height: auto;
+    margin-top: 1rem;
+  }
+
+  #textoNoEncontrado {
+    width: 14rem;
+    height: 2rem;
+    position: relative;
+    font-size: 12px;
+    border-radius: 5rem;
+    color: #000000;
+    margin-top: -6rem;
+    margin-left:1rem;
+  }
+  
+  #textoNoEncontrado h2 {
+    position: relative;
+    padding: 0.5rem;
+    background-color: #f4f6c5;
+    border-radius: 5rem; 
+    font-size: 0.5rem;
+    margin: 0% 15%;
+  }
+  
+  #textoNoEncontrado p {
+    position: relative;
+    font-size: 0.5rem;
+
+  }
+  
+  .derecha p {
+    font-size: 15px;
+    border-radius: 5rem;
+    background-color: #f4f6c5;
+    color: #000000;
+    padding: 0.5rem;
+    margin-top: 10px;
+  }
+  
+  #munheco {
+    width: 16rem;
+    height: 10rem;
+    z-index: 1;
+    margin: 0rem 0rem;
+  }
+
+  #munheco img {
+    display: inline;
+    margin-top: -7rem;
+    margin-left: -3rem;
+    margin-bottom: 0rem;
+    scale: 0.3;
+  }
+  
+  #munheco p {
+    text-align: center;
+  }
+  #textoEncontrado {
+    width: 16rem;
+    height: 6rem;
+    font-size: 2rem;
+    position: relative;
+    margin-left: 0rem;
+    word-wrap: break-word;
+    scale: 0.2;
+  }
+  
+  #textoEncontrado.derecha {
+    scale: 1;
+  }
+
+  #textoSalida {
+    display: block;
+    font-size: 1.6rem;
+    font-family: "Inter", sans-serif;
+    padding: 0px;
+    margin-left: 1.5rem;
+    text-align: justify;
+    box-shadow: none;
+    width: 12rem;
+    height: 8rem;
+    scale: 1;
+  }
+  
+  #copiar {
+    border-radius: 1rem;
+    background-color: rgb(229, 214, 199, 0.753);
+    box-shadow: 0.15rem 0.15rem 0.6rem #00000096;
+    position: absolute;
+    bottom: 1rem;
+    margin-left: 6rem;
+  }
+  
+  
+  #textoCopiado {
+    display: block;
+    position: absolute;
+    bottom: 0.5rem;
+    left: 0.5rem;
+    background: rgb(229, 214, 199, 0.753);
+    padding: 0.4rem 1rem;
+    border-radius: 2rem;
+    font-size: 0.7rem;
+    box-shadow: 0.15rem 0.15rem 0.6rem #00000096;
+    transition: 10ms;
+    opacity: 0%;
+    scale: 0.5;
+  }
+  
+  #textoCopiado p {
+    margin: auto 1.7rem;
+    font-size: 1.3rem;
+  }
+  
+  footer {
+      margin-top: 14rem;
+      margin-left: 2rem;
+  
+  }
+  
+  footer div {
+    position: absolute;
+    margin: 1.6% auto;
+    display: inline;
+  }
+  
+  footer p {
+    font-size: 0.5rem;
+    text-align: left;
+    color: #e9ceb2;
+    display: inline-block;
+  }
+  
+  span {
+    font-size: 1rem;
+    font-style: italic;
+    color: #e9ceb2;
+    margin: auto 0.2rem;
+  }
+  
+  
+  #github {
+    width: 1rem;
+    height: 1rem;
+  }
+  
+  #linkedin {
+    width: 1rem;
+    height: 1rem;
+    margin-top: 0.4rem;
+    margin-left: 16rem;
+  }
+  
+  li {
+    position: relative;
+    display: inline;
+    scale: 0.6rem;
+  }
+  
+
+ }
