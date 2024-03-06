@@ -1,4 +1,7 @@
 /* DISEÑO FULL HD */
+:root {
+  background-image: rgb(0, 128, 255);
+}
 body {
   background-image: linear-gradient(
     rgba(0, 0, 255, 0.5),
